@@ -19,7 +19,7 @@ app.use(userRoutes);
 app.use(tasksRoutes);
 
 // listens for request
-app.listen(port,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server is running on port ", port);
 })
 
