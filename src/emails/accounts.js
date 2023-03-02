@@ -1,10 +1,10 @@
-const proxy = require("node-global-proxy").default;
+// const proxy = require("node-global-proxy").default;
 
-proxy.setConfig({
-  http: "http://172.16.199.20:8080"
-//   https: "http://172.16.199.20:8080",
-});
-proxy.start();
+// proxy.setConfig({
+//   http: "http://172.16.199.20:8080"
+// //   https: "http://172.16.199.20:8080",
+// });
+// proxy.start();
 
 const sgMail = require("@sendgrid/mail")
 

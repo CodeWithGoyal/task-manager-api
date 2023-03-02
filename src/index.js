@@ -1,10 +1,10 @@
-const proxy = require("node-global-proxy").default;
+// const proxy = require("node-global-proxy").default;
 
-proxy.setConfig({
-  http: "http://localhost:1080",
-  https: "https://localhost:1080",
-});
-proxy.start();
+// proxy.setConfig({
+//   http: "http://localhost:1080",
+//   https: "https://localhost:1080",
+// });
+// proxy.start();
 
 const express = require("express");
 require("./db/mongoose.js");
