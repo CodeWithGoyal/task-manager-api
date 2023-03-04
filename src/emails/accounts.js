@@ -20,7 +20,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const sendWelcomeMail = (email,name)=>{
     sgMail.send({
         to : email,
-        from: "dhruvbajoria0@gmail.com",
+        from: "dhruvbajoria80@gmail.com",
         subject : "welcome",
         text : `welcome ${name}`
     })

@@ -20,13 +20,6 @@ app.use(tasksRoutes);
 
 // listens for request
 app.listen(process.env.PORT,()=>{
-    console.log("server is running on port ", port);
+    console.log("server is running on port ", process.env.PORT);
 })
 
-// const User = require("./model/user")
-// const main = async()=>{
-//     const user = await User.findById("63f7244c1bc22b7746625c4d");
-//     await user.populate("tasks")
-//     console.log(user.tasks)
-// }
-// main()
