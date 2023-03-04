@@ -1,1 +1,1 @@
-The task manager api is live on https://task-manager-api-production-0489.up.railway.app/ , https://brave-necklace-dove.cyclic.app/ where you can authenticate and authorize user by creating or logging account and can create and access task.
+The task manager api is live on https://task-manager-api-production-0489.up.railway.app/ , https://brave-necklace-dove.cyclic.app/, https://my-task-manager.cyclic.app/ where you can authenticate and authorize user by creating or logging account and can create and access task.
